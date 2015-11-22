@@ -9,9 +9,9 @@ public class King extends Piece {
         diagonal = true;
         diagonalCaptureOnly = false;
 
-        this.row = initRow;
-        this.column = initColumn;
-        this.color = color;
+        initRow = this.row;
+        initColumn = this.column;
+        color = this.color;
 
     }
 
