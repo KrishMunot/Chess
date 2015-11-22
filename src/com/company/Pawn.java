@@ -12,8 +12,8 @@ public class Pawn extends Piece{
         diagonal = false;
         diagonalCaptureOnly = true;
 
-        row = initRow;
-        column = initColumn;
+        this.row = initRow;
+        this.column = initColumn;
         color = this.color;
 
     }
